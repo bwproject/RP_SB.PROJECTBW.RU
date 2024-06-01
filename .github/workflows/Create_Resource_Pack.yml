@@ -77,7 +77,7 @@ jobs:
           username: ${{ secrets.GLOBAL_FTP_USERNAME }}
           password: ${{ secrets.GLOBAL_FTP_PASSWORD }}
           #local-dir: ${{ steps.archive.outputs.path }}/
-          local-dir: '/home/runner/work/resource_pack/resource_pack/upload/'
+          local-dir: '/home/runner/work/RP_SB.PROJECTBW.RU/RP_SB.PROJECTBW.RU/upload'
           #server-dir: ${{ secrets.FTP_PATH }}/
           server-dir: /hdd/pterodactyl/volumes/8eca4a8a-9337-4709-87f6-9a622d31795f/plugins/forcepack/packs/
           protocol: ftp
