@@ -83,6 +83,7 @@ jobs:
           protocol: ftp
           security: loose
           log-level: verbose
+          state-name: .SB.json
           port: 21 # todo replace with your web hosts ftps port
 
 
